@@ -1,0 +1,9 @@
+users>
+id, uid, username, password, user_type, date_created, date_modified, status
+
+profile>
+id, uid, user_uid, first_name, middle_name, last_name, birth_date, house_no, street, barangay, city, tin_no, sss_no, date_created, date_modified, status
+
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #camera{
+            width: 350px;
+            height: 350px;
+            border: 2px solid black;
+        }
+
+    </style>
+
+    
+</head>
+<body>
+  
+<h1> Take 3 pictures of yourself</h1>
+ <div id="camera" ></div>
+ <div id="results"></div>
+
+<button onclick="take_pic();">Capture</button>
+ <input type=button value="Save Snapshot" onClick="saveSnap()">
+
+   
+</body>
+
+<script src="jquery.js"></script>
+<script src="webcam.min.js"></script>
+<script src="capture.js"></script>
+
+</html>

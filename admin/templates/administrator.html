@@ -1,0 +1,176 @@
+<script type="text/template" id="dashboardAdminPage">
+    <div class="container">
+        <div class="wrapper fadeIn">
+        <span class="border border-3 border-light bg-gradient-light ">
+            <div class="bordercontain">
+                <div class="row">
+                    <div class="mr-auto">
+                        <h3>Welcome Administrator</h3>
+                    </div>
+                    <div class="col"></div>
+                    <div class="ml-auto">
+                        <iframe src="https://free.timeanddate.com/clock/i800ltlr/n145/tlph/fn15/fs28/fcfff/tct/pct/tt0/td2/th2/tb4" frameborder="0" width="360" height="66" allowtransparency="true"></iframe>
+
+                    </div>
+                </div>
+                <div class="row" id="rowbuttons">
+                    <div class="col d-flex justify-content-center ">
+                        <div class="mr-auto">     
+                            <a href="#/register/employee/"><button type="button" class="btn btn-lg btn-outline-light">Register Employee</button></a>   
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" onclick = '(function(){ window.location.href = "../../../admin/php/export.php";  })();' class="btn btn-outline-light">Export</button></a>
+                        </div>
+                </div>                      
+            </div>       
+        </span>   
+        </div>    
+    
+    </div>
+</script>
+
+<script type="text/template" id="employeeRegisterPage">
+    <div class="container">
+        <div class="wrapper fadeInDown">
+            <span class="border border-3 border-light bg-gradient-light">
+                <div class="row">
+                    <div class="mr-auto">
+                        <div class="col"><h3>Register Employee<h3></div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="ml-auto">
+                        <iframe src="https://free.timeanddate.com/clock/i800ltlr/n145/tlph/fn15/fs28/fcfff/tct/pct/tt0/td2/th2/tb4" frameborder="0" width="360" height="66" allowtransparency="true"></iframe>
+
+                    </div>
+                </div>
+        
+                
+                <div class="row d-flex justify-content-center">
+                    <div class="mx-auto">
+                        <div class="admin-wall">
+                            <form class="form-signin ">
+                                <input type="text" id = "id" class="form-control" placeholder="Employee ID no." required autofocus>
+                                <input type="text" id = "fname" class="form-control" placeholder="Employee Firstname" required autofocus>
+                                <input type="text" id = "mname" class="form-control" placeholder="Employee Middle Initial" required autofocus>
+                                <input type="text" id = "lname" class="form-control" placeholder="Employee Lastname" required autofocus>
+                                <div class="col-xs-3 d-flex justify-content-center ">  
+                                        <button class="btn btn-lg btn-outline-light" id ="register" type="submit">REGISTER</button>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </span> 
+        </div>    
+    
+    </div>
+</script>
+
+
+<script type="text/template" id="cameraRegisterPage">
+    <div class="container">
+        <div class="wrapper fadeInDown">
+            <span class="border border-3 border-light bg-gradient-light">
+                <div class="row">
+                    <div class="mr-auto">
+                        <div class="col"><h3>Register Employee<h3></div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="ml-auto">
+                        <iframe src="https://free.timeanddate.com/clock/i800ltlr/n145/tlph/fn15/fs28/fcfff/tct/pct/tt0/td2/th2/tb4" frameborder="0" width="360" height="66" allowtransparency="true"></iframe>
+
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="mx-auto">
+                        <h1> Take 3 pictures of yourself</h1>
+                        <div id="camera" ></div>
+                        <div id="results"></div>
+
+                        <button id="capture">Capture</button>
+                        <input id= "save" type=button value="Save Snapshot">
+                    </div>
+                </div>
+            </span> 
+        </div>    
+    
+    </div>
+</script>
+
+
+<!--<script type="text/template" id="adminRegisterPage">
+    <div class="container">
+        <div class="wrapper fadeInDown">
+            <span class="border border-3 border-dark bg-gradient-light">
+                <div class="row">
+                    <div class="mr-auto">
+                        <img class="avasialogo"src="images/avasia.jpg">
+                    </div>
+                    <div class="ml-auto">
+                        <iframe src="https://free.timeanddate.com/clock/i7z4jtyh/n145/tlph/tct/pct/ftb/bac444/tt0/tm1/td2/th2/ts1/tb4" frameborder="0" width="200" height="38" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-auto">
+                        <div class="col"><h3>Register Admin<h3></div>
+                    </div>
+                </div>
+                
+                <div class="row d-flex justify-content-center">
+                    <div class="mx-auto">
+                        <div class="admin-wall">
+                            <form class="form-signin ">
+                                <input type="text" class="form-control" placeholder="Admin Firstname" required autofocus>
+                                <input type="text" class="form-control" placeholder="Admin Lastname" required autofocus>
+                                <input type="text" class="form-control" placeholder="Employee ID no." required autofocus>
+                                <input type="text" class="form-control" placeholder="Admin Password" required autofocus>
+                                <input type="text" class="form-control" placeholder="Confirm Admin Password" required autofocus>
+                                
+                                <div class="col-xs-3 d-flex justify-content-center ">  
+                                        <button class="btn btn-lg btn-outline-dark" type="submit">REGISTER</button>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </span> 
+        </div>    
+    
+    </div>
+</script>
+-->
+
+<script type="text/template" id="reportPage">
+    <div class="container">
+        <div class="wrapper fadeInDown">
+            <span class="border border-3 border-light bg-gradient-light">
+                <div class="row">
+                    <div class="mr-auto">
+                        <img class="avasialogo"src="images/avasia.jpg">
+                    </div>
+                    <div class="col"></div>
+                    <div class="ml-auto">
+                        <iframe src="https://free.timeanddate.com/clock/i800ltlr/n145/tlph/fn15/fs28/fcfff/tct/pct/tt0/td2/th2/tb4" frameborder="0" width="360" height="66" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-auto">
+                        <div class="col"><h3>Reports<h3></div>
+                    </div>
+                </div>
+                
+            </span> 
+        </div>    
+    
+    </div>
+</script>
+
+
+<script type="text/template" id="404">
+    <h1>404</h1>
+    <h4>Page Not Found</h4>
+</script>
+
+admin dito
